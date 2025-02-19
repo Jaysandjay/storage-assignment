@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <span id="message"></span>
+    <div id="reflection">
+      <p class="reflection">
+        API stands for Application Programming Interface. They are predefined
+        functions which allows different software components interact with each
+        other. In this Assignment, I am using the Web Storage API. This allows
+        me to let the user save data on their browser. Once Data is stored Using
+        the Web API, the user can refresh the page and still have their previous
+        information or settings still saved.
+      </p>
+      <p class="reflection">
+        Other Commonly used HTML5 APIs are the Geolocation API and the Canvas
+        API. The Geolocation API allows the web page to access the user's
+        current geographical position in latitude and longitude. The Canvas API
+        provides a 2D drawing surface for the user which gives the user helpful
+        tools to create animation, games and drawings
+      </p>
+    </div>
+    <div id="form" class="user-container">
+      <h1 id="welcome">Welcome, User!</h1>
+      <label for="user">User Name</label>
+      <input type="text" id="userName" name="userName" />
+      <button class="btn" id="save-btn">Save Name</button>
+      <button class="btn" id="clear-btn">Clear Name</button>
+      <p id="display-name"></p>
+    </div>
+    <button id="reflectionBtn" class="btn">Reflection</button>
+  </body>
+</html>
